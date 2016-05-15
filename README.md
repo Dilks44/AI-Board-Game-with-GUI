@@ -14,7 +14,7 @@ DrawingTest.java:
 https://gist.github.com/Dilks44/683bd3590b3655a90350
 
 Next, replace the printBoard method in Game.java with the one I wrote
-<pre><code>
+
 public void printBoard() {
 	DrawingTest newDrawing = new DrawingTest();
 	for(int i=0;i<board.length;i++) {
@@ -28,10 +28,10 @@ public void printBoard() {
 			else if (board[i][j] == 2) {
 				newDrawing.drawLocation(i,j, Color.BLUE);
 			}
-		}
-	}
-}
-</code></pre>
+			}
+			}
+			}
+
 
 At this point you should be able to see the before and after picture given that you have already replaced P2_LastName in Game.java’s main method.
 If you dont have any code for P2_LastName yet, use the HumanPlayer.class instead.
