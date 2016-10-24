@@ -1,6 +1,12 @@
 # AI-Board-Game-with-GUI
 I've written an AI to play this special type of game as well as the GUI to visualize what is going on!
+Screenshot: http://zetapsiumd.com/images/HexGame.png
 
+Recently I've included a .jar file so that anyone who wishes to see what this project does can just open that file!
+If you would like to run this project from eclipse to get a better understanding of what is going on, navigate to file->import-> General -> Existing project into workspace -> Select Archive file -> navigate to HexGame.zip included in this repo. Main is located in ThreePlayerHexGame.class
+
+
+--ORIGINAL POST TO CLASS WEBPAGE--
 Hello everyone,
 
 I just wanted to share a graphical representation of our game that I found online and then repurposed for our uses.
